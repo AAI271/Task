@@ -72,7 +72,7 @@ let index = [];
 
 
 const addNum = () => {
-    let x = Math.floor((Math.random() * 2000) -1000);
+    let x = Math.floor((Math.random() * 200) -100);
     if (!(index.includes(x))){
         notification(x,1)
         const newList = [...index,x]
